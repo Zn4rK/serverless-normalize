@@ -1,0 +1,32 @@
+{
+  "name": "@serverless-normalize/aws",
+  "version": "0.0.6",
+  "description": "Compatibility layer for AWS",
+  "author": "Zn4rK <alexander@paxxmedia.se>",
+  "homepage": "https://github.com/Zn4rK/serverless-normalize#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "test": "jest",
+    "build": "tsc -b ."
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zn4rK/serverless-normalize.git"
+  },
+  "dependencies": {
+    "@serverless-normalize/utils": "file:../utils",
+    "@types/aws-lambda": "^8.10.30"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/Zn4rK/serverless-normalize/issues"
+  }
+}

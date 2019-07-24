@@ -1,0 +1,21 @@
+# Build
+packages/*/lib
+
+# Coverage reports
+coverage
+
+# Dependency directory
+node_modules
+
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# ignore yarn.lock
+yarn.lock
+lerna-debug.log
+npm-debug.log

@@ -1,0 +1,28 @@
+{
+  "name": "@serverless-normalize/normalize",
+  "version": "0.0.6",
+  "description": "The automatic serverless provider detection library.",
+  "author": "Zn4rK <alexander@paxxmedia.se>",
+  "homepage": "https://github.com/Zn4rK/serverless-normalize#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "test": "jest",
+    "build": "tsc -b ."
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zn4rK/serverless-normalize.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/Zn4rK/serverless-normalize/issues"
+  }
+}

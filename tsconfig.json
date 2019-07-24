@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "noUnusedParameters": false,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "target": "es2016",
+    "module": "commonjs",
+    "lib": [
+      "es2017",
+      "esnext.asynciterable"
+    ],
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/tests/**.ts"
+  ],
+  "references": [
+    {
+      "path": "packages/aws"
+    },
+    {
+      "path": "packages/normalize"
+    },
+    {
+      "path": "packages/utils"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "@serverless-normalize/utils",
+  "version": "0.0.6",
+  "description": "Shared utilities for @serverless-normalize",
+  "author": "Zn4rK <alexander@paxxmedia.se>",
+  "homepage": "https://github.com/Zn4rK/serverless-normalize#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zn4rK/serverless-normalize.git"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "test": "jest",
+    "build": "tsc -b ."
+  },
+  "bugs": {
+    "url": "https://github.com/Zn4rK/serverless-normalize/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
