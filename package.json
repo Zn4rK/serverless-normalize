@@ -5,7 +5,7 @@
     "postinstall": "lerna exec -- npm install --package-lock=false && lerna run prepare",
     "test": "jest",
     "build": "lerna run build",
-    "publish": "build && lerna publish"
+    "publish": "npm run build && lerna publish"
   },
   "dependencies": {
     "@serverless-normalize/normalize": "file:packages/normalize",
