@@ -6,7 +6,7 @@
     "test": "jest",
     "build": "lerna run build",
     "publish": "npm run build && lerna publish",
-    "coveralls": "npm run test --coverage && cat ./coverage/lcov.info | coveralls"
+    "coveralls": "npm run test -- --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "dependencies": {
     "@serverless-normalize/normalize": "file:packages/normalize",
