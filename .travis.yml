@@ -6,6 +6,13 @@ matrix:
 
 sudo: false
 
+cache:
+  directories:
+    - node_modules
+
+before_install:
+  - npm update
+
 install:
   - travis_retry npm install
 
