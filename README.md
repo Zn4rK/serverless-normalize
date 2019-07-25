@@ -1,5 +1,8 @@
 # serverless-normalize 😎
 
+[![Build Status](https://travis-ci.org/Zn4rK/serverless-normalize.svg?branch=master)](https://travis-ci.org/Zn4rK/serverless-normalize)
+[![Coverage Status](https://coveralls.io/repos/github/Zn4rK/serverless-normalize/badge.svg?branch=master)](https://coveralls.io/github/Zn4rK/serverless-normalize?branch=master)
+
 Normalize your serverless functions by abstracting away the differences between the different serverless providers.
 It adds a standardized request/response model, that you can hook into any framework you like - or use it as is!
 

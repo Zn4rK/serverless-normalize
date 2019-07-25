@@ -5,7 +5,8 @@
     "postinstall": "lerna exec -- npm install --package-lock=false && lerna run prepare",
     "test": "jest",
     "build": "lerna run build",
-    "publish": "npm run build && lerna publish"
+    "publish": "npm run build && lerna publish",
+    "coveralls": "npm run test --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "dependencies": {
     "@serverless-normalize/normalize": "file:packages/normalize",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@types/jest": "^24.0.15",
     "@types/node": "^12.6.6",
+    "coveralls": "^3.0.5",
     "jest": "^24.8.0",
     "lerna": "^3.15.0",
     "ts-jest": "^24.0.2",
