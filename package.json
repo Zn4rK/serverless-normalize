@@ -2,10 +2,12 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "postinstall": "lerna exec -- npm install --package-lock=false && lerna run prepare",
     "test": "jest",
     "build": "lerna run build",
     "publish": "npm run build && lerna publish",
-    "coveralls": "npm run test -- --coverage && cat ./coverage/lcov.info | coveralls"
+    "coveralls": "npm run test -- --coverage && cat ./coverage/lcov.info | coveralls",
+    "clean": "find . -name \"node_modules\" -exec rm -rf '{}' + && find . -name \"lib\" -exec rm -rf '{}' +"
   },
   "dependencies": {
     "@serverless-normalize/normalize": "file:packages/normalize",
