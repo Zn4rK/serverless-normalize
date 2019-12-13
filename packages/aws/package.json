@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@serverless-normalize/utils": "file:../utils",
-    "@types/aws-lambda": "^8.10.30"
+    "@types/aws-lambda": "^8.10.39"
   },
   "publishConfig": {
     "access": "public"
