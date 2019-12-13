@@ -1,6 +1,6 @@
 {
   "name": "@serverless-normalize/aws",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Compatibility layer for AWS",
   "author": "Zn4rK <alexander@paxxmedia.se>",
   "homepage": "https://github.com/Zn4rK/serverless-normalize#readme",
