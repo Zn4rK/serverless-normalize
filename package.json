@@ -2,7 +2,6 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "postinstall": "lerna exec -- npm install --package-lock=false && lerna run prepare",
     "test": "jest",
     "build": "lerna run build",
     "publish": "npm run build && lerna publish",
@@ -10,8 +9,8 @@
   },
   "dependencies": {
     "@serverless-normalize/normalize": "file:packages/normalize",
-    "@serverless-normalize/aws": "file:packages/aws",
-    "@serverless-normalize/utils": "file:packages/utils"
+    "@serverless-normalize/utils": "file:packages/utils",
+    "@serverless-normalize/aws": "file:packages/aws"
   },
   "devDependencies": {
     "@types/jest": "^24.0.23",
