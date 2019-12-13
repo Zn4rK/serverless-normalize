@@ -3,6 +3,7 @@ export const mockRequestContext: AWSLambda.APIGatewayEventRequestContext = {
   apiId: 'foobar',
   httpMethod: 'GET',
   identity: {
+    principalOrgId: null,
     accessKey: null,
     accountId: null,
     apiKey: null,
@@ -51,6 +52,6 @@ export const mockContext: AWSLambda.Context = {
   invokedFunctionArn: 'foobar',
   logGroupName: 'foobar',
   logStreamName: 'foobar',
-  memoryLimitInMB: 128,
+  memoryLimitInMB: '128',
   succeed: () => undefined,
 };

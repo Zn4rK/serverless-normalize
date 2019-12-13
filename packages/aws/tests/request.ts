@@ -1,5 +1,5 @@
 import { mockEvent } from './fixtures/requests';
-import { Request } from '../src/request';
+import { Request } from '../src';
 
 describe('toPromise.ts', () => {
   it('sets original event', () => {
