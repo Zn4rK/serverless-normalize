@@ -91,4 +91,4 @@ Contributions are more than welcome! Just fork and clone the repository and run 
 
 **serverless-normalize** © [Alexander Liljengård](https://github.com/zn4rk). Released under the [MIT](./LICENSE) license.
 <br>
-Authored and maintained by Alexander Liljengård with help from [contributors](https://github.com/zn4rk/serverless-http/contributors).
+Authored and maintained by Alexander Liljengård with help from [contributors](https://github.com/zn4rk/serverless-normalize/contributors).
