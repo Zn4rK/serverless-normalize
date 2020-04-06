@@ -1,6 +1,6 @@
 # serverless-normalize 😎
 
-[![Build Status](https://travis-ci.org/Zn4rK/serverless-normalize.svg?branch=master)](https://travis-ci.org/Zn4rK/serverless-normalize)
+![Test](https://github.com/Zn4rK/serverless-normalize/workflows/Test/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/Zn4rK/serverless-normalize/badge.svg?branch=master)](https://coveralls.io/github/Zn4rK/serverless-normalize?branch=master)
 
 Normalize your serverless functions by abstracting away the differences between the different serverless providers.

@@ -2,6 +2,8 @@ export const mockRequestContext: AWSLambda.APIGatewayEventRequestContext = {
   accountId: 'foobar',
   apiId: 'foobar',
   httpMethod: 'GET',
+  protocol: '',
+  authorizer: undefined,
   identity: {
     principalOrgId: null,
     accessKey: null,
