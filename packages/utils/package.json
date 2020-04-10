@@ -1,6 +1,6 @@
 {
   "name": "@serverless-normalize/utils",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Shared utilities for @serverless-normalize",
   "author": "Zn4rK <alexander@paxxmedia.se>",
   "homepage": "https://github.com/Zn4rK/serverless-normalize#readme",
