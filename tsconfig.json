@@ -4,18 +4,13 @@
     "noUnusedLocals": true,
     "skipLibCheck": true,
     "moduleResolution": "node",
-    "importHelpers": true,
+    "importHelpers": false,
     "removeComments": true,
     "sourceMap": true,
     "declaration": true,
-    "declarationMap": true,
-    "target": "es2016",
+    "target": "esnext",
     "module": "commonjs",
-    "lib": [
-      "es2017",
-      "esnext.asynciterable"
-    ],
-    "esModuleInterop": true
+    "esModuleInterop": false
   },
   "exclude": [
     "node_modules",

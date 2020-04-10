@@ -6,9 +6,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm install
-      - run: npm run test --if-present
-      - run: npm run coveralls --if-present
+
+      - name: Run tests
+        run: |
+          npm install
+          npm run test -- --coverage
+
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
